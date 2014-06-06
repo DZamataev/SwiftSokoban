@@ -63,7 +63,7 @@ class GameScene: SKScene {
                     entity = ""
                 }
                 var propSprite = SKSpriteNode(imageNamed:
-                    "/Users/Denis/dev/SwiftSokoban/\(entity).png")
+                    "/Users/admin/dev/SwiftSokoban/\(entity).png")
                 propSprite.anchorPoint = CGPoint(x: 0, y: 0)
                 propSprite.position = CGPoint(x:dx, y:dy)
                 levelNodes.append(propSprite)
